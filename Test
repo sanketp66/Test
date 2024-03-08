@@ -1,0 +1,10 @@
+stage('Test') {
+            steps {
+                script {
+                    // Testing commands
+                    sh 'echo "Testing started"'
+                    sh 'bash test_script.sh'  // Example testing script
+                    sh 'echo "Testing completed"'
+                }
+            }
+        }
